@@ -2,13 +2,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-const names = ['brokoli', 'ted', 'tim', 'hyunseung'];
-
 function App() {
-
-    const selectedName = Math.random() > 0.5 ? names[0]: names[1]
-    console.log(Math.abs(Math.random() * 10))
-
   return (
     <>
       <div>
@@ -19,7 +13,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>{selectedName}</h1>
+      <h1>Sample App</h1>
       <div className="card">
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
